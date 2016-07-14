@@ -27,8 +27,8 @@
         var geotext = document.getElementById('geotext');
         geotext.textContent = 'Latitude: ' + position.coords.latitude + '\n' +
           'Longitude: ' + position.coords.longitude;
-        alert('lalalala');
-        window.location="http://www.ebay.com";
+        alert('got GPS');
+        window.location="http://new.plasticsurgery-india.com/";
     };
  
     var onError = function onError(error) {
